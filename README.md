@@ -1,4 +1,5 @@
 ## PAGE RANK 
+<img src="https://giphy.com/embed/WH29gsBFZIfalzrVBu" width="300">
 
 Two things are random in the pagerank algorithm:
 - the random walk process of a surfer going from node to node through their edges.
