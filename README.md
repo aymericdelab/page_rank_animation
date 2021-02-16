@@ -1,6 +1,10 @@
 ## PAGE RANK 
 <img src="https://media.giphy.com/media/WH29gsBFZIfalzrVBu/giphy.gif" width="300">
 
+## launch
+python random_algo.py will create a random gif of a pagerank random walker
+
+## randomness
 Two things are random in the pagerank algorithm:
 - the random walk process of a surfer going from node to node through their edges.
 - the value of each node (or their rank)
@@ -13,3 +17,4 @@ Going through the edges of the graph is like throwing a coin.
 ### Personalization Vector
 The personnalization vector indicates which nodes will be used as outedges by the dangling nodes.
 The outedges to be assigned to any “dangling” nodes, i.e., nodes without any outedges. The dict key is the node the outedge points to and the dict value is the weight of that outedge. By default, dangling nodes are given outedges according to the personalization vector (uniform if not specified). This must be selected to result in an irreducible transition matrix (see notes under google_matrix). It may be common to have the dangling dict to be the same as the personalization dict.
+
